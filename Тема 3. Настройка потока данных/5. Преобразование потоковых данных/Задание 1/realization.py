@@ -13,7 +13,7 @@ kafka_security_options = {
 }
 
 # Укажите ваш топик
-TOPIC_NAME = 'student.topic.cohort39.dmitryvd'  # замените на ваш реальный топик
+TOPIC_NAME = 'student.topic.cohort1.ocmarus'  # замените на ваш реальный топик
 
 def spark_init() -> SparkSession:
     spark = (SparkSession.builder

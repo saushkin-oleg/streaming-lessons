@@ -21,7 +21,7 @@ def submit(t_code, rlz_file=''):
         full_lesson_path = os.path.dirname(os.path.abspath(__file__))
         user_file = f'{full_lesson_path}/{rlz_file}'
 
-        with open(user_file, 'r') as u_file:
+        with open(user_file, 'r', encoding='utf-8') as u_file:
             user_code = u_file.read()
 
     settings_path = os.path.dirname(os.path.abspath(__file__)).split('Тема')[0]

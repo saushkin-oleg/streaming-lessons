@@ -38,6 +38,7 @@ def submit(t_code, rlz_file=''):
     TOPIC_NAME = u_settings.TOPIC_NAME
 
     print(f'TOPIC_NAME: {TOPIC_NAME}')
+    print(f'User HOST:{u_settings.USER_HOST} Topic: {u_settings.TOPIC_NAME}')
 
     try:
         r = requests.post(
